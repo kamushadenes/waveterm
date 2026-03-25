@@ -106,7 +106,7 @@
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^5.0.4",
         "webpack-merge": "^5.8.0",
-        "yaml": "^2.4.0"
+        "yaml": "^2.8.3"
     },
     "scripts": {
         "postinstall": "electron-builder install-app-deps"
