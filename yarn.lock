@@ -3737,7 +3737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.9.0":
+"@types/node@npm:*":
   version: 20.11.30
   resolution: "@types/node@npm:20.11.30"
   dependencies:
@@ -3761,6 +3761,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 10c0/dce80d63a3b91892b321af823d624995c61e39c6a223cc0ac481a44d337640cc46931d33efb3beeed75f5c85c3bda1d97cef4c5cd4ec333caf5dee59cff6eca0
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.7.7":
+  version: 22.19.15
+  resolution: "@types/node@npm:22.19.15"
+  dependencies:
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/f17eaf3d0d1da5e93ad9e287efb78201f8a5282973c004c5f70d91675c5c6b926a23acaa7b158a42b3d7e27e36b349d65a531710c91c308fca53dd7fa280ef98
   languageName: node
   linkType: hard
 
@@ -6179,16 +6188,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^30.0.8":
-  version: 30.0.8
-  resolution: "electron@npm:30.0.8"
+"electron@npm:^39.8.4":
+  version: 39.8.6
+  resolution: "electron@npm:39.8.6"
   dependencies:
     "@electron/get": "npm:^2.0.0"
-    "@types/node": "npm:^20.9.0"
+    "@types/node": "npm:^22.7.7"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10c0/eedeb7e2a922c8cd59df1b8413317a510d58eb1d12bd6cdaeef20461d3553f5880d441efee91e702798f17271066f1bc120785624fc561bee998ab46c3740470
+  checksum: 10c0/6b86d4ee2fab2daa89792ce62c48b8d4cda46a2d1aead2fd9150b796eb5aada334b7d4cae666ce6ded3b322d16b31996fd019dcc1ac4bba3174eff8801ed2a9f
   languageName: node
   linkType: hard
 
@@ -11690,6 +11699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
+  languageName: node
+  linkType: hard
+
 "unicode-canonical-property-names-ecmascript@npm:^2.0.0":
   version: 2.0.0
   resolution: "unicode-canonical-property-names-ecmascript@npm:2.0.0"
@@ -12043,7 +12059,7 @@ __metadata:
     css-loader: "npm:^7.1.0"
     dayjs: "npm:^1.11.3"
     dompurify: "npm:^3.0.2"
-    electron: "npm:^30.0.8"
+    electron: "npm:^39.8.4"
     electron-builder: "npm:^24.13.3"
     electron-builder-squirrel-windows: "npm:^24.13.3"
     electron-squirrel-startup: "npm:^1.0.0"
