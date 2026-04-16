@@ -29,7 +29,7 @@
         "base64-js": "^1.5.1",
         "clsx": "^2.1.1",
         "dayjs": "^1.11.3",
-        "dompurify": "^3.0.2",
+        "dompurify": "^3.4.0",
         "electron-squirrel-startup": "^1.0.0",
         "electron-updater": "^6.2.1",
         "framer-motion": "^10.16.16",
