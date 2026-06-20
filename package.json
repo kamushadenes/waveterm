@@ -104,7 +104,7 @@
         "webpack": "^5.104.1",
         "webpack-bundle-analyzer": "^4.10.1",
         "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.0.4",
+        "webpack-dev-server": "^5.2.5",
         "webpack-merge": "^5.8.0",
         "yaml": "^2.8.3"
     },
